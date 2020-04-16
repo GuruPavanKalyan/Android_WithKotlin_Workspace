@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/walk"
+    android:title="Walk"
+    android:icon="@drawable/walk"
+    />
+    <item
+        android:id="@+id/edit"
+        android:title="Edit"
+        android:icon="@drawable/ic_launcher_background"
+        />
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/settings1"
+                android:title="Settings1"
+                android:icon="@drawable/walk"
+                />
+            <item
+                android:id="@+id/settings2"
+                android:title="Settings"
+                android:icon="@drawable/ic_launcher_background"
+                />
+        </menu>
+
+    </item>
+</menu>
