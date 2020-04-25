@@ -74,6 +74,5 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         //recyclerView.adapter = MyAdapter(this,list)
 
-
     }
 }

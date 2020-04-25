@@ -55,7 +55,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayData(list: List<StudentDetails>) {
-
         val ra = RecyclerAdapter(this)
         rv.adapter = ra
         ra.submitList(list)
